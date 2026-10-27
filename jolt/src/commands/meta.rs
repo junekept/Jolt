@@ -57,12 +57,12 @@ pub async fn info(ctx: crate::Context<'_>) -> Result<(), crate::DynError> {
                 ),
                 (
                     "GitHub",
-                    "https://github.com/Joshument/Jolt",
+                    "https://github.com/junekept/Jolt",
                     true
                 ),
                 (
                     "Maintainer",
-                    "Joshument (@imperishablenight on discord)",
+                    "junekept (@imperishablenight on discord)",
                     true
                 ),
                 (
@@ -81,7 +81,7 @@ pub async fn info(ctx: crate::Context<'_>) -> Result<(), crate::DynError> {
                     true
                 )
             ])
-            .description("Jolt is licensed under the [BSD 3-Clause License](https://github.com/Joshument/Jolt/blob/main/LICENSE).")
+            .description("Jolt is licensed under the [BSD 3-Clause License](https://github.com/junekept/Jolt/blob/main/LICENSE).")
             .footer(CreateEmbedFooter::new(
                     format!(
                         "Shard {}/{} | Uptime {} | Ping {}ms",

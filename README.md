@@ -54,7 +54,7 @@ finish this later!! for now this is more a reminder to myself, but:
 Jolt uses the [poise](https://docs.rs/poise/latest/poise/) crate as a framework. If you would like to add commands, it's as simple as linking your functions to the framework in `main`! Support for primitive custom commands will be added in the future if you are not a rust programmer.
 
 ## Issues
-Please report any issues to the [issue tracker](https://github.com/Joshument/Jolt/issues).
+Please report any issues to the [issue tracker](https://github.com/junekept/Jolt/issues).
 
 ## License
-Jolt is licensed under the [BSD 3-Clause License](https://github.com/Joshument/Jolt/blob/main/LICENSE). If you do not want to read the license, tl;dr do not use the names of any contributors of this bot to promote or advertise you derivitave work (you are allowed to mention us).
+Jolt is licensed under the [BSD 3-Clause License](https://github.com/junekept/Jolt/blob/main/LICENSE). If you do not want to read the license, tl;dr do not use the names of any contributors of this bot to promote or advertise you derivitave work (you are allowed to mention us).

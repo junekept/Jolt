@@ -91,7 +91,7 @@ pub async fn warn(
 fn warn_help() -> String {
     String::from(
         "Warn a user in the server (with an optional reason).
-Example: %warn @Joshument#0001 I am feeling evil today
+Example: %warn @junekept#0001 I am feeling evil today
         ",
     )
 }
@@ -214,7 +214,7 @@ pub async fn warnings(
 fn warnings_help() -> String {
     String::from(
         "Get the warnings for the specified user.
-Example: %warnings @Joshument#0001 1
+Example: %warnings @junekept#0001 1
         ",
     )
 }
@@ -305,7 +305,7 @@ pub async fn ban(
 fn ban_help() -> String {
     String::from(
         "Ban a user from the server (with an optional specified time and reason).
-Example: %ban @Joshument#0001 10s joined 10 seconds too early
+Example: %ban @junekept#0001 10s joined 10 seconds too early
         ",
     )
 }
@@ -373,7 +373,7 @@ pub async fn unban(
 fn unban_help() -> String {
     String::from(
         "Unban a user from the server.
-Example: %unban @Joshument#0001 my perspective of you has changed
+Example: %unban @junekept#0001 my perspective of you has changed
         ",
     )
 }
@@ -451,7 +451,7 @@ pub async fn kick(
 fn kick_help() -> String {
     String::from(
         "Kick a user from the server.
-Example: %kick @Joshument#0001 nerd
+Example: %kick @junekept#0001 nerd
     ",
     )
 }
@@ -728,7 +728,7 @@ pub async fn mute(
 fn mute_help() -> String {
     String::from(
         "Mute a user (with an optional specified time).
-Example: %mute @Joshument#0001 3d keeps procrastinating on the modlogs command
+Example: %mute @junekept#0001 3d keeps procrastinating on the modlogs command
         ",
     )
 }
@@ -836,7 +836,7 @@ pub async fn unmute(
 fn unmute_help() -> String {
     String::from(
         "Mute a user (with an optional specified time).
-Example: %mute @Joshument#0001 3d keeps procrastinating on the modlogs command
+Example: %mute @junekept#0001 3d keeps procrastinating on the modlogs command
         ",
     )
 }
@@ -894,7 +894,7 @@ pub async fn modlogs(
 fn modlogs_help() -> String {
     String::from(
         "Get the modlogs for the specified user.
-Example: %modlogs @Joshument#0001 1
+Example: %modlogs @junekept#0001 1
         ",
     )
 }
